@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ChaserControl : MonoBehaviour
 {
@@ -21,7 +22,12 @@ public class ChaserControl : MonoBehaviour
 
     void OnCollisionEnter(Collision other)
     {
-           Destroy(other.gameObject);
+        if (other.gameObject.name.Contains("Player"))
+        {
+            SceneManager.LoadScene(1);
+        }
+        
+        Destroy(other.gameObject);
     }
     
 }

@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6db7d9a1-a05e-48f1-9550-f596a4e301ec" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Block.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Block.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CarControl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CarControl.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ChaserControl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ChaserControl.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,17 +33,17 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/ChaserControl.cs">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/RestartScript.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="522">
+              <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
               <folding>
-                <marker date="1611983033120" expanded="false" signature="6:78" ph="..." />
-                <marker date="1611983033120" expanded="true" signature="122:536" ph="{...}" />
-                <marker date="1611983033120" expanded="true" signature="217:315" ph="{...}" />
-                <marker date="1611983033120" expanded="true" signature="373:435" ph="{...}" />
-                <marker date="1611983033120" expanded="true" signature="479:529" ph="{...}" />
+                <marker date="1612026470198" expanded="true" signature="6:113" ph="..." />
+                <marker date="1612026470198" expanded="true" signature="157:423" ph="{...}" />
+                <marker date="1612026470198" expanded="true" signature="229:250" ph="{...}" />
+                <marker date="1612026470198" expanded="true" signature="308:421" ph="{...}" />
+                <marker date="1612026470198" expanded="true" signature="356:415" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -64,6 +65,23 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/ChaserControl.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+              <folding>
+                <marker date="1612026660641" expanded="true" signature="6:113" ph="..." />
+                <marker date="1612026660641" expanded="true" signature="157:690" ph="{...}" />
+                <marker date="1612026660641" expanded="true" signature="252:350" ph="{...}" />
+                <marker date="1612026660641" expanded="true" signature="408:470" ph="{...}" />
+                <marker date="1612026660641" expanded="true" signature="514:683" ph="{...}" />
+                <marker date="1612026660641" expanded="true" signature="574:633" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -72,6 +90,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CarControl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GenerateObstacles.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/RestartScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ChaserControl.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -79,6 +98,7 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/GenerateObstacles.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CarControl.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/RestartScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ChaserControl.cs" />
       </list>
     </option>
@@ -150,12 +170,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1611978251894</updated>
-      <workItem from="1611978255976" duration="4795000" />
+      <workItem from="1611978255976" duration="5428000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4795000" />
+    <option name="totallyTimeSpent" value="5428000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -228,6 +248,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/RestartScript.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+          <folding>
+            <marker date="1612026470198" expanded="true" signature="6:113" ph="..." />
+            <marker date="1612026470198" expanded="true" signature="157:423" ph="{...}" />
+            <marker date="1612026470198" expanded="true" signature="229:250" ph="{...}" />
+            <marker date="1612026470198" expanded="true" signature="308:421" ph="{...}" />
+            <marker date="1612026470198" expanded="true" signature="356:415" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/CarControl.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="610">
@@ -246,14 +280,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/ChaserControl.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="88">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
           <folding>
-            <marker date="1611983033120" expanded="false" signature="6:78" ph="..." />
-            <marker date="1611983033120" expanded="true" signature="122:536" ph="{...}" />
-            <marker date="1611983033120" expanded="true" signature="217:315" ph="{...}" />
-            <marker date="1611983033120" expanded="true" signature="373:435" ph="{...}" />
-            <marker date="1611983033120" expanded="true" signature="479:529" ph="{...}" />
+            <marker date="1612026660641" expanded="true" signature="6:113" ph="..." />
+            <marker date="1612026660641" expanded="true" signature="157:690" ph="{...}" />
+            <marker date="1612026660641" expanded="true" signature="252:350" ph="{...}" />
+            <marker date="1612026660641" expanded="true" signature="408:470" ph="{...}" />
+            <marker date="1612026660641" expanded="true" signature="514:683" ph="{...}" />
+            <marker date="1612026660641" expanded="true" signature="574:633" ph="{...}" />
           </folding>
         </state>
       </provider>

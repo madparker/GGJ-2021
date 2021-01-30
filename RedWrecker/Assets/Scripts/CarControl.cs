@@ -16,7 +16,7 @@ public class CarControl : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
+    {   
         if (Input.GetKey(KeyCode.D))
         {
             rb.AddForce(transform.right * forceMod);
@@ -25,5 +25,9 @@ public class CarControl : MonoBehaviour
         {
             rb.AddForce(transform.right * -forceMod);
         }
+
+        Vector3 vel = rb.velocity;
+        vel.z = -forceMod;
+        rb.velocity = vel;
     }
 }

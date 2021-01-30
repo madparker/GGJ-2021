@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6db7d9a1-a05e-48f1-9550-f596a4e301ec" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CarControl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CarControl.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,18 +12,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/CarControl.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+            <state relative-caret-position="146">
+              <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
               <folding>
-                <marker date="1611978593724" expanded="false" signature="6:78" ph="..." />
-                <marker date="1611978593724" expanded="true" signature="119:596" ph="{...}" />
-                <marker date="1611978593724" expanded="true" signature="251:303" ph="{...}" />
-                <marker date="1611978593724" expanded="true" signature="361:594" ph="{...}" />
-                <marker date="1611978593724" expanded="true" signature="404:477" ph="{...}" />
-                <marker date="1611978593724" expanded="true" signature="514:588" ph="{...}" />
+                <marker date="1611981031696" expanded="false" signature="6:78" ph="..." />
+                <marker date="1611981031696" expanded="true" signature="119:689" ph="{...}" />
+                <marker date="1611981031696" expanded="true" signature="251:303" ph="{...}" />
+                <marker date="1611981031696" expanded="true" signature="361:687" ph="{...}" />
+                <marker date="1611981031696" expanded="true" signature="407:480" ph="{...}" />
+                <marker date="1611981031696" expanded="true" signature="517:591" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/GenerateObstacles.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
+              <folding>
+                <marker date="1611981105403" expanded="false" signature="6:78" ph="..." />
+                <marker date="1611981105403" expanded="true" signature="126:773" ph="{...}" />
+                <marker date="1611981105403" expanded="true" signature="198:692" ph="{...}" />
+                <marker date="1611981105403" expanded="true" signature="265:686" ph="{...}" />
+                <marker date="1611981105403" expanded="true" signature="750:771" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -36,19 +52,21 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CarControl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GenerateObstacles.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/CarControl.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GenerateObstacles.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="322" />
+    <option name="x" value="98" />
     <option name="y" value="25" />
-    <option name="width" value="1221" />
-    <option name="height" value="937" />
+    <option name="width" value="1659" />
+    <option name="height" value="936" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -111,12 +129,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1611978251894</updated>
-      <workItem from="1611978255976" duration="1018000" />
+      <workItem from="1611978255976" duration="2729000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1018000" />
+    <option name="totallyTimeSpent" value="2729000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -128,13 +146,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="322" y="25" width="1221" height="937" extended-state="0" />
+    <frame x="98" y="25" width="1659" height="936" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Image Layers" />
       <window_info id="Capture Tool" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17048346" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.124304265" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="NuGet" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
@@ -142,7 +160,7 @@
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Unit Tests" />
       <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" visible="true" weight="0.32896304" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" weight="0.32896304" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -177,15 +195,29 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/CarControl.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+        <state relative-caret-position="146">
+          <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
           <folding>
-            <marker date="1611978593724" expanded="false" signature="6:78" ph="..." />
-            <marker date="1611978593724" expanded="true" signature="119:596" ph="{...}" />
-            <marker date="1611978593724" expanded="true" signature="251:303" ph="{...}" />
-            <marker date="1611978593724" expanded="true" signature="361:594" ph="{...}" />
-            <marker date="1611978593724" expanded="true" signature="404:477" ph="{...}" />
-            <marker date="1611978593724" expanded="true" signature="514:588" ph="{...}" />
+            <marker date="1611981031696" expanded="false" signature="6:78" ph="..." />
+            <marker date="1611981031696" expanded="true" signature="119:689" ph="{...}" />
+            <marker date="1611981031696" expanded="true" signature="251:303" ph="{...}" />
+            <marker date="1611981031696" expanded="true" signature="361:687" ph="{...}" />
+            <marker date="1611981031696" expanded="true" signature="407:480" ph="{...}" />
+            <marker date="1611981031696" expanded="true" signature="517:591" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GenerateObstacles.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
+          <folding>
+            <marker date="1611981105403" expanded="false" signature="6:78" ph="..." />
+            <marker date="1611981105403" expanded="true" signature="126:773" ph="{...}" />
+            <marker date="1611981105403" expanded="true" signature="198:692" ph="{...}" />
+            <marker date="1611981105403" expanded="true" signature="265:686" ph="{...}" />
+            <marker date="1611981105403" expanded="true" signature="750:771" ph="{...}" />
           </folding>
         </state>
       </provider>

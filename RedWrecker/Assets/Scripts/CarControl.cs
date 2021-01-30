@@ -7,6 +7,8 @@ public class CarControl : MonoBehaviour
     public float forceMod = 10;
     
     Rigidbody rb;
+
+    public GameObject go;
     
     // Start is called before the first frame update
     void Start()
@@ -34,5 +36,7 @@ public class CarControl : MonoBehaviour
         {
             rb.AddForce(transform.forward * forceMod * 20);
         }
+
+        go.transform.forward = rb.velocity.normalized;
     }
 }

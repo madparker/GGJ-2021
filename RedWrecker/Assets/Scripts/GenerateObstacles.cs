@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class GenerateObstacles : MonoBehaviour
 {
+    public GameObject[] obstacles;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -11,14 +13,14 @@ public class GenerateObstacles : MonoBehaviour
         for (int i = 0; i < 100; i++)
         {
             GameObject go = 
-                Instantiate<GameObject>(Resources.Load<GameObject>("Block"));
+                Instantiate<GameObject>(obstacles[Random.Range(0,3)]);
             
             go.transform.parent = transform;
             
             go.transform.localPosition = 
                 new Vector3(
                     Random.Range(-3.5f, 3.5f),
-                    0.5f,
+                    0,
                     i * 10 - 500);
             
             go.transform.Rotate(Vector3.up, 45);

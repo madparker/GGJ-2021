@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6db7d9a1-a05e-48f1-9550-f596a4e301ec" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Block.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Block.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/CarControl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CarControl.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,25 +17,42 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/CarControl.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+            <state relative-caret-position="610">
+              <caret line="34" column="57" selection-start-line="34" selection-start-column="57" selection-end-line="34" selection-end-column="57" />
               <folding>
-                <marker date="1611981031696" expanded="false" signature="6:78" ph="..." />
-                <marker date="1611981031696" expanded="true" signature="119:689" ph="{...}" />
-                <marker date="1611981031696" expanded="true" signature="251:303" ph="{...}" />
-                <marker date="1611981031696" expanded="true" signature="361:687" ph="{...}" />
-                <marker date="1611981031696" expanded="true" signature="407:480" ph="{...}" />
-                <marker date="1611981031696" expanded="true" signature="517:591" ph="{...}" />
+                <marker date="1611981932033" expanded="false" signature="6:78" ph="..." />
+                <marker date="1611981932033" expanded="true" signature="119:819" ph="{...}" />
+                <marker date="1611981932033" expanded="true" signature="251:303" ph="{...}" />
+                <marker date="1611981932033" expanded="true" signature="361:817" ph="{...}" />
+                <marker date="1611981932033" expanded="true" signature="506:579" ph="{...}" />
+                <marker date="1611981932033" expanded="true" signature="616:690" ph="{...}" />
+                <marker date="1611981932033" expanded="true" signature="731:811" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/ChaserControl.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="235">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <marker date="1611983033120" expanded="false" signature="6:78" ph="..." />
+                <marker date="1611983033120" expanded="true" signature="122:536" ph="{...}" />
+                <marker date="1611983033120" expanded="true" signature="217:315" ph="{...}" />
+                <marker date="1611983033120" expanded="true" signature="373:435" ph="{...}" />
+                <marker date="1611983033120" expanded="true" signature="479:529" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/GenerateObstacles.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
+            <state relative-caret-position="170">
+              <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
               <folding>
                 <marker date="1611981105403" expanded="false" signature="6:78" ph="..." />
                 <marker date="1611981105403" expanded="true" signature="126:773" ph="{...}" />
@@ -53,12 +72,14 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CarControl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GenerateObstacles.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ChaserControl.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/CarControl.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GenerateObstacles.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CarControl.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ChaserControl.cs" />
       </list>
     </option>
   </component>
@@ -129,12 +150,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1611978251894</updated>
-      <workItem from="1611978255976" duration="2729000" />
+      <workItem from="1611978255976" duration="4795000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2729000" />
+    <option name="totallyTimeSpent" value="4795000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -193,31 +214,46 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CarControl.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-          <folding>
-            <marker date="1611981031696" expanded="false" signature="6:78" ph="..." />
-            <marker date="1611981031696" expanded="true" signature="119:689" ph="{...}" />
-            <marker date="1611981031696" expanded="true" signature="251:303" ph="{...}" />
-            <marker date="1611981031696" expanded="true" signature="361:687" ph="{...}" />
-            <marker date="1611981031696" expanded="true" signature="407:480" ph="{...}" />
-            <marker date="1611981031696" expanded="true" signature="517:591" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/GenerateObstacles.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
+        <state relative-caret-position="170">
+          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
           <folding>
             <marker date="1611981105403" expanded="false" signature="6:78" ph="..." />
             <marker date="1611981105403" expanded="true" signature="126:773" ph="{...}" />
             <marker date="1611981105403" expanded="true" signature="198:692" ph="{...}" />
             <marker date="1611981105403" expanded="true" signature="265:686" ph="{...}" />
             <marker date="1611981105403" expanded="true" signature="750:771" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CarControl.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="610">
+          <caret line="34" column="57" selection-start-line="34" selection-start-column="57" selection-end-line="34" selection-end-column="57" />
+          <folding>
+            <marker date="1611981932033" expanded="false" signature="6:78" ph="..." />
+            <marker date="1611981932033" expanded="true" signature="119:819" ph="{...}" />
+            <marker date="1611981932033" expanded="true" signature="251:303" ph="{...}" />
+            <marker date="1611981932033" expanded="true" signature="361:817" ph="{...}" />
+            <marker date="1611981932033" expanded="true" signature="506:579" ph="{...}" />
+            <marker date="1611981932033" expanded="true" signature="616:690" ph="{...}" />
+            <marker date="1611981932033" expanded="true" signature="731:811" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ChaserControl.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <marker date="1611983033120" expanded="false" signature="6:78" ph="..." />
+            <marker date="1611983033120" expanded="true" signature="122:536" ph="{...}" />
+            <marker date="1611983033120" expanded="true" signature="217:315" ph="{...}" />
+            <marker date="1611983033120" expanded="true" signature="373:435" ph="{...}" />
+            <marker date="1611983033120" expanded="true" signature="479:529" ph="{...}" />
           </folding>
         </state>
       </provider>

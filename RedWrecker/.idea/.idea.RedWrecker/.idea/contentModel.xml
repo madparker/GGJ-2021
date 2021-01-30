@@ -41,6 +41,7 @@
           <e p="ChaserControl.cs" t="Include" />
           <e p="GenerateObstacles.cs" t="Include" />
           <e p="RestartScript.cs" t="Include" />
+          <e p="ScoreScript.cs" t="Include" />
         </e>
       </e>
       <e p="Library" t="ExcludeRecursive" />

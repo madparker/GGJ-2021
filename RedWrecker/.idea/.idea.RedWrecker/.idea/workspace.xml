@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6db7d9a1-a05e-48f1-9550-f596a4e301ec" name="Default Changelist" comment="" />
+    <list default="true" id="6db7d9a1-a05e-48f1-9550-f596a4e301ec" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/CarControl.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+            <state relative-caret-position="175">
+              <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
               <folding>
                 <marker date="1611978593724" expanded="false" signature="6:78" ph="..." />
                 <marker date="1611978593724" expanded="true" signature="119:596" ph="{...}" />
@@ -109,12 +111,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1611978251894</updated>
-      <workItem from="1611978255976" duration="775000" />
+      <workItem from="1611978255976" duration="1018000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="775000" />
+    <option name="totallyTimeSpent" value="1018000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -175,8 +177,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/CarControl.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+        <state relative-caret-position="175">
+          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
           <folding>
             <marker date="1611978593724" expanded="false" signature="6:78" ph="..." />
             <marker date="1611978593724" expanded="true" signature="119:596" ph="{...}" />

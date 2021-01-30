@@ -12,15 +12,16 @@ public class GenerateObstacles : MonoBehaviour
         {
             GameObject go = 
                 Instantiate<GameObject>(Resources.Load<GameObject>("Block"));
-            go.transform.position = 
+            
+            go.transform.parent = transform;
+            
+            go.transform.localPosition = 
                 new Vector3(
                     Random.Range(-3.5f, 3.5f),
                     0.5f,
                     i * 10 - 500);
             
             go.transform.Rotate(Vector3.up, 45);
-            
-            go.transform.parent = transform;
         }
     }
 

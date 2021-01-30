@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6db7d9a1-a05e-48f1-9550-f596a4e301ec" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ChaserControl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ChaserControl.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GenerateObstacles.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GenerateObstacles.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,14 +49,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/GenerateObstacles.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+            <state relative-caret-position="112">
+              <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
               <folding>
-                <marker date="1611981105403" expanded="false" signature="6:78" ph="..." />
-                <marker date="1611981105403" expanded="true" signature="126:773" ph="{...}" />
-                <marker date="1611981105403" expanded="true" signature="198:692" ph="{...}" />
-                <marker date="1611981105403" expanded="true" signature="265:686" ph="{...}" />
-                <marker date="1611981105403" expanded="true" signature="750:771" ph="{...}" />
+                <marker date="1612038631334" expanded="false" signature="6:78" ph="..." />
+                <marker date="1612038631334" expanded="true" signature="126:791" ph="{...}" />
+                <marker date="1612038631334" expanded="true" signature="198:710" ph="{...}" />
+                <marker date="1612038631334" expanded="true" signature="265:704" ph="{...}" />
+                <marker date="1612038631334" expanded="true" signature="768:789" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -96,10 +93,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/GenerateObstacles.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CarControl.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RestartScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ChaserControl.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GenerateObstacles.cs" />
       </list>
     </option>
   </component>
@@ -170,12 +167,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1611978251894</updated>
-      <workItem from="1611978255976" duration="5428000" />
+      <workItem from="1611978255976" duration="6671000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5428000" />
+    <option name="totallyTimeSpent" value="6671000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -234,20 +231,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GenerateObstacles.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-          <folding>
-            <marker date="1611981105403" expanded="false" signature="6:78" ph="..." />
-            <marker date="1611981105403" expanded="true" signature="126:773" ph="{...}" />
-            <marker date="1611981105403" expanded="true" signature="198:692" ph="{...}" />
-            <marker date="1611981105403" expanded="true" signature="265:686" ph="{...}" />
-            <marker date="1611981105403" expanded="true" signature="750:771" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/RestartScript.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="522">
@@ -258,6 +241,20 @@
             <marker date="1612026470198" expanded="true" signature="229:250" ph="{...}" />
             <marker date="1612026470198" expanded="true" signature="308:421" ph="{...}" />
             <marker date="1612026470198" expanded="true" signature="356:415" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GenerateObstacles.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding>
+            <marker date="1612038631334" expanded="false" signature="6:78" ph="..." />
+            <marker date="1612038631334" expanded="true" signature="126:791" ph="{...}" />
+            <marker date="1612038631334" expanded="true" signature="198:710" ph="{...}" />
+            <marker date="1612038631334" expanded="true" signature="265:704" ph="{...}" />
+            <marker date="1612038631334" expanded="true" signature="768:789" ph="{...}" />
           </folding>
         </state>
       </provider>

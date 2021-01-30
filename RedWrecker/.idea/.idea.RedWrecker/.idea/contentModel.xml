@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="MikeStuff" t="Include">
+          <e p="PlaceHoldere.cs" t="Include" />
+        </e>
+        <e p="Quantum Theory" t="Include">
+          <e p="Polyworld" t="Include">
+            <e p="Editor" t="Include">
+              <e p="QT_CombineMeshes.cs" t="Include" />
+              <e p="QT_ConvertMesh.cs" t="Include" />
+              <e p="QT_PolyWorldTerrainEditor.cs" t="Include" />
+            </e>
+            <e p="Scripts" t="Include">
+              <e p="QT_InteractContainer.cs" t="Include" />
+              <e p="QT_LightFlicker.cs" t="Include" />
+              <e p="QT_PolyWorldTerrain.cs" t="Include" />
+              <e p="Utility Scripts" t="Include">
+                <e p="MeshCombineUtility.cs" t="Include" />
+                <e p="QT_MeshCombineUtility.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Shaders" t="Include">
+              <e p="PolyWorld_TerrainTree.shader" t="Include" />
+              <e p="PolyWorldSurface_Gamma.shader" t="Include" />
+              <e p="PolyWorldSurface_Linear.shader" t="Include" />
+              <e p="PolyWorldSurfaceTexture_Gamma.shader" t="Include" />
+              <e p="PolyWorldSurfaceTexture_Linear.shader" t="Include" />
+              <e p="QT_3xTreeRenderTex.shader" t="Include" />
+              <e p="SurfaceNoiseGamma.shader" t="Include" />
+              <e p="SurfaceNoiseLinear.shader" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="CarControl.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="RedWrecker.sln" t="IncludeFlat" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
+    </e>
+    <e p="$USER_HOME$/Library/Caches/Rider2018.3/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2018.3/resharper-host/local/Transient/ReSharperHost/v183/SolutionCaches/_RedWrecker.627934381.00" t="ExcludeRecursive" />
+  </component>
+</project>

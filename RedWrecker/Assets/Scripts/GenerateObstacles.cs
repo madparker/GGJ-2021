@@ -9,7 +9,6 @@ public class GenerateObstacles : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        print("Here");
         for (int i = 0; i < 100; i++)
         {
             GameObject go = 

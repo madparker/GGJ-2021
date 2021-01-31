@@ -37,6 +37,6 @@ public class CarControl : MonoBehaviour
             rb.AddForce(transform.forward * forceMod * 20);
         }
 
-        go.transform.forward = rb.velocity.normalized;
+        go.transform.right = rb.velocity.normalized;
     }
 }

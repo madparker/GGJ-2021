@@ -18,6 +18,6 @@ public class ScoreScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        text.text = "Score: " + (Time.realtimeSinceStartup - startTime);
+        text.text = "Score: " + (int)(Time.realtimeSinceStartup - startTime);
     }
 }

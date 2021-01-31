@@ -13,11 +13,18 @@ public class CarControl : MonoBehaviour
     public KeyCode left;
     public KeyCode right;
     public KeyCode back;
+
+    public AudioClip crash;
+
+    public Vector3 rotAmnt = new Vector3();
+    
+    AudioSource audio;
     
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+        audio = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -42,5 +49,14 @@ public class CarControl : MonoBehaviour
         }
 
         go.transform.right = rb.velocity.normalized;
+    }
+
+    void OnCollisionEnter(Collision other)
+    {
+        if (!audio.isPlaying)
+        {
+            audio.clip = crash;
+            audio.Play();
+        }
     }
 }

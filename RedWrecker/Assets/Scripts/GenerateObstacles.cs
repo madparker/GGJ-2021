@@ -9,10 +9,10 @@ public class GenerateObstacles : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        for (int i = 0; i < 100; i++)
+        for (int i = 0; i < 200; i++)
         {
             GameObject go = 
-                Instantiate<GameObject>(obstacles[Random.Range(0,3)]);
+                Instantiate<GameObject>(obstacles[Random.Range(0,obstacles.Length)]);
             
             go.transform.parent = transform;
             
@@ -20,7 +20,7 @@ public class GenerateObstacles : MonoBehaviour
                 new Vector3(
                     Random.Range(-3.5f, 3.5f),
                     0,
-                    i * 10 - 500);
+                    i * 7.5f - 500);
             
             go.transform.Rotate(Vector3.up, Random.Range(0,360));
         }

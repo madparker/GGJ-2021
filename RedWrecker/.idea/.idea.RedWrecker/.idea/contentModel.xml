@@ -37,6 +37,7 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="CameraPosition.cs" t="Include" />
           <e p="CarControl.cs" t="Include" />
           <e p="ChaserControl.cs" t="Include" />
           <e p="GenerateObstacles.cs" t="Include" />

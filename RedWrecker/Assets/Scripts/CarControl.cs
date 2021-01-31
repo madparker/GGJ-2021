@@ -9,6 +9,10 @@ public class CarControl : MonoBehaviour
     Rigidbody rb;
 
     public GameObject go;
+
+    public KeyCode left;
+    public KeyCode right;
+    public KeyCode back;
     
     // Start is called before the first frame update
     void Start()
@@ -24,17 +28,17 @@ public class CarControl : MonoBehaviour
         vel.z = -forceMod;
         rb.velocity = vel;
         
-        if (Input.GetKey(KeyCode.D))
+        if (Input.GetKey(right))
         {
             rb.AddForce(transform.right * forceMod);
         }
-        if (Input.GetKey(KeyCode.A))
+        if (Input.GetKey(left))
         {
             rb.AddForce(transform.right * -forceMod);
         }
-        if (Input.GetKey(KeyCode.Space))
+        if (Input.GetKey(back))
         {
-            rb.AddForce(transform.forward * forceMod * 20);
+            rb.AddForce(transform.forward * forceMod * 50);
         }
 
         go.transform.right = rb.velocity.normalized;

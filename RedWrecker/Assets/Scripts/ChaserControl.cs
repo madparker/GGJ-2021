@@ -24,7 +24,7 @@ public class ChaserControl : MonoBehaviour
     {
         if (other.gameObject.name.Contains("Player"))
         {
-            SceneManager.LoadScene(1);
+            SceneManager.LoadScene(2);
         }
         
         Destroy(other.gameObject);

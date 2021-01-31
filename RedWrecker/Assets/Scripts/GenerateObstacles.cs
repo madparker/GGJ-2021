@@ -23,7 +23,7 @@ public class GenerateObstacles : MonoBehaviour
                     0,
                     i * 10 - 500);
             
-            go.transform.Rotate(Vector3.up, 45);
+            go.transform.Rotate(Vector3.up, Random.Range(0,360));
         }
     }
 

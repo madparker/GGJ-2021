@@ -157,7 +157,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.49056602, g: 0.3216447, b: 0.34512466, a: 0}
+  m_BackGroundColor: {r: 0.32156864, g: 0.45221463, b: 0.49019608, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -244,11 +244,7 @@ TextMesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1172917264}
-  m_Text: 'Player 2 Arrows
-
-    Left: Left Right:Right
-
-    Back: Down'
+  m_Text: "Player 2\nLeft: \u2190\nRight: \u2192\nBack: \u2193"
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -354,7 +350,7 @@ TextMesh:
   m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
   m_Color:
     serializedVersion: 2
-    rgba: 4278190195
+    rgba: 4281449262
 --- !u!23 &1492566256
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -435,9 +431,11 @@ TextMesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1624453519}
-  m_Text: 'Player 1 Keys
+  m_Text: 'Player 1
 
-    Left: A Right: D
+    Left: A
+
+    Right: D
 
     Back: S'
   m_OffsetZ: 0
@@ -651,20 +649,20 @@ TextMesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2072047813}
-  m_Text: Red Wrecker
+  m_Text: Land of the Lost... Found!
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
   m_Anchor: 4
   m_Alignment: 1
   m_TabSize: 4
-  m_FontSize: 64
+  m_FontSize: 60
   m_FontStyle: 3
   m_RichText: 1
   m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
   m_Color:
     serializedVersion: 2
-    rgba: 4278190195
+    rgba: 4280728598
 --- !u!23 &2072047816
 MeshRenderer:
   m_ObjectHideFlags: 0
